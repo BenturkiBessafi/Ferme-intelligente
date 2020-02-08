@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="farm.ico" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Ferme intelligente | Chapitre 3</title>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href="index.HTML">Home</a>
+            <a href="Ch(1).HTML">Chapitre 1</a>
+            <a href="Ch(2).HTML">Chapitre 2</a>
+            <a style="color: black; background-color: aqua;" href="Ch(3).HTML">Chapitre 3</a>
+            <a href="Ch(4).HTML">Chapitre 4</a>
+            <div class="dropdown">
+                <button class="dropbtn">More
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a target="_blank" href="https://drive.google.com/file/d/1rST5L9wrekhkV5fGoYDZExgzWs_f_fak/view?usp=sharing">Download full document .PDF</a>
+                    <a target="_blank" href="https://drive.google.com/file/d/1g_CvHKJL1jCrw16vB0PzlIeq3uKf7E5X/view?usp=sharing">Download full document .DOCX</a>
+                    <a target="_blank" href="https://drive.google.com/file/d/1kwjhaK9qCnvj-g8h4zj9YN9YXpPnObyT/view?usp=sharing">Download Presentation .PPTX</a>
+                    <a target="_blank" href="https://drive.google.com/file/d/1mgbDqt9iMavM0lpSp_o46m_oE-tlFn53/view?usp=sharing">Download Arduino_sketch.ino</a>
+                    <a target="_blank" href="https://drive.google.com/file/d/15mRFQ04U-87kauzuuC_UJdw85IMANhmF/view?usp=sharing">Download Raspberry pi codes</a>
+                </div>
+            </div>
+            <a style="float:right" href="mailto:BenturkiB@Gmail.com" target="_blank">Contact</a>
+        </div>
+        <br><br>
+        
+        <div class="title">
+            <h1>Chapitre 3<br>Description du hard/software du projet</h1>
+        </div>
+        
+        <div class="stitle" style="width: 240;">
+            <h2>Introduction</h2>
+        </div>
+        <br>
+        <div class="txt">                
+        <p>L’intérêt de ce projet réside dans le fait que l’agriculture intelligente est une technologie récente mais qui se développe rapidement, le but du projet est donc de créer un outil permettant de contrôler les commodités d’une ferme à distance afin de faciliter la vie des agriculteurs.</p>
+        </div>
+        <br>
+        
+        <div class="stitle" style="width: 510;">
+            <h2>Étude de la partie matérielle</h2>
+        </div>
+        <br>
+        <div class="txt">                
+            <h3>Matériel utilisé:</h3><br>
+            <table><tr>
+                    <th>Arduino Méga 2560</th>
+                    <td><div class="imgs" style="text-align: right;"><img src="img/ArduinoM2560.jpg" alt="Arduino Mega 2560" width="350"></div></td>
+                    <th>Carte Raspberry Pi3</th>
+                    <td><div class="imgs" style="text-align: right;"><img src="img/raspberrypi3.jpg" alt="Carte Raspberry Pi3" width="350"></div></td>
+            </tr></table>
+            
+            <table><tr>
+                    <th>Module Bluetooth HC-06</th>
+                    <td><div class="imgs" style="text-align: right;"><img src="img/Bluetooth.png" alt="Bluetooth HC-06" width="350"></div></td>
+                    <th>Capteur de Gaz MQ-2</th>
+                    <td><div class="imgs" style="text-align: right;"><img src="img/gas.png" alt="Capteur de Gaz MQ-2" width="350"></div></td>
+            </tr></table>
+            
+            <table><tr>
+                    <th>Ultrasonique HC-SR04</th>
+                    <td><div class="imgs" style="text-align: right;"><img src="img/ultrason.jpg" alt="Ultrasonique HC-SR04" width="350"></div></td>
+                    <th>Capteur de température/humidité DHT11</th>
+                    <td><div class="imgs" style="text-align: right;"><img src="img/dht11.jpg" alt="Capteur de température/humidité DHT11" width="350"></div></td>
+            </tr></table>
+            
+            <table><tr>
+                    <th>Le capteur de flamme KY-026 </th>
+                    <td><div class="imgs" style="text-align: right;"><img src="img/flamme.jpg" alt="Le capteur de flamme KY-026" width="350"></div></td>
+                    <th>Le capteur d’humidité de sol (IM121017001)</th>
+                    <td><div class="imgs" style="text-align: right;"><img src="img/humiditedesol.png" alt="Le capteur d’humidité de sol" width="350"></div></td>
+            </tr></table>
+            
+            <br><br>
+            <p>plus: Deux servomoteurs, Deux ventilateurs, Deux pompes, Webcam, photorésistance, Des résistances, Des LEDs, Buzzer et des Relais.</p>
+        </div>
+        <br>
+        
+        
+        <div class="stitle" style="width: 510;">
+            <h2>Etude de La partie Logicielle</h2>
+        </div>
+        <br>
+        <div class="txt">                
+            <h3>Logiciel utilisé :</h3><br>
+            <h4>1. MIT App Inventor2 :</h4><a href="http://ai2.appinventor.mit.edu/" target="_blank"><p>Visitez le site Web d'ici</p></a><br>
+            <div class="imgs"><img src="img/MIT.png" alt="MIT App Inventor2" width="1100"></div><br>
+            
+            <h4>2. Arduino IDE :</h4><a href="https://www.arduino.cc/en/main/software" target="_blank"><p>Telecharger ici</p></a><br>
+            <div class="imgs"><img src="img/IDE.png" alt="Arduino IDE" width="1100"></div><br>
+            
+            <h4>3. Proteus :</h4><br>
+            <div class="imgs"><img src="img/Proteus.png" alt="Proteus" width="1100"></div><br>
+            
+            <h4>4. Raspberry : OS Raspbian, Python et la bibliothèque Open CV :</h4><br>
+            <div class="imgs"><img src="img/rasp_py.png" alt="Raspberry" width="400"></div><br>
+
+        </div>
+        <br>
+        
+        <div class="stitle" style="width: 240;">
+            <h2>Conclusion</h2>
+        </div>
+        <br>
+        <div class="txt">                
+        <p>Dans ce chapitre, nous avons présenté en détail les modules nécessaires de notre projet. Nous avons commencé par la présentation du matériel utilisés et expliqué leurs fonctionnements, ensuite nous avons donné une description des logiciels appliquer dans notre réalisation.</p>
+        </div>
+        <br>
+        
+        <footer class="f">
+            Écrit par: <b style="letter-spacing: 2px;">HOUBAD KHADIDJA</b> & <b style="letter-spacing: 2px;">GUETTAF MEHIEDDINE</b><br>
+            Posté par: <b style="letter-spacing: 2px;">&copy;2019 BENTURKI BESSAFI</b> <br> 
+            Contact : <a href="mailto:BenturkiB@Gmail.com" target="_blank">BenturkiB@Gmail.com</a>.
+        </footer>
+    </body>
+</html>

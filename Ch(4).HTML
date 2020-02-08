@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="farm.ico" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Ferme intelligente | Chapitre 4</title>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href="index.HTML">Home</a>
+            <a href="Ch(1).HTML">Chapitre 1</a>
+            <a href="Ch(2).HTML">Chapitre 2</a>
+            <a href="Ch(3).HTML">Chapitre 3</a>
+            <a style="color: black; background-color: aqua;" href="Ch(4).HTML">Chapitre 4</a>
+            <div class="dropdown">
+                <button class="dropbtn">More
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a target="_blank" href="https://drive.google.com/file/d/1rST5L9wrekhkV5fGoYDZExgzWs_f_fak/view?usp=sharing">Download full document .PDF</a>
+                    <a target="_blank" href="https://drive.google.com/file/d/1g_CvHKJL1jCrw16vB0PzlIeq3uKf7E5X/view?usp=sharing">Download full document .DOCX</a>
+                    <a target="_blank" href="https://drive.google.com/file/d/1kwjhaK9qCnvj-g8h4zj9YN9YXpPnObyT/view?usp=sharing">Download Presentation .PPTX</a>
+                    <a target="_blank" href="https://drive.google.com/file/d/1mgbDqt9iMavM0lpSp_o46m_oE-tlFn53/view?usp=sharing">Download Arduino_sketch.ino</a>
+                    <a target="_blank" href="https://drive.google.com/file/d/15mRFQ04U-87kauzuuC_UJdw85IMANhmF/view?usp=sharing">Download Raspberry pi codes</a>
+                </div>
+            </div>
+            <a style="float:right" href="mailto:BenturkiB@Gmail.com" target="_blank">Contact</a>
+        </div>
+        <br><br>
+        
+        <div class="title">
+            <h1>Chapitre 4<br>Réalisation du projet</h1>
+        </div>
+        
+        <div class="stitle" style="width: 240;">
+            <h2>Introduction</h2>
+        </div>
+        <br>
+        <div class="txt">                
+        <p>Dans ce chapitre nous présenterons les étapes de la conception et de la réalisation du projet. La réalisation de la maquette qui représente une ferme intelligente ainsi que la programmation commandée par un Smartphone sont l’objet de ce chapitre. L’application de commande Android permet à l’utilisateur de contrôler le système à distance d’une manière fiable et automatique. Pour la création de l’application, on à choisir l’outil informatique « MIT App Inventor » qui a une interface facile à utilisé.et qui permettra de contrôler les dispositifs de la ferme par Bluetooth.</p>
+        </div>
+        <br>
+        
+        <div class="stitle" style="width: 1000;">
+            <h2>Développement et présentation de l’application Android:</h2>
+        </div>
+        <br>
+        <div class="txt">
+            <h3>Conception de l’interface:</h3>
+            <br>
+            <table><tr>
+                    <th style="width: 150">Les boutons</th>
+                    <td style="width: 150"><div class="imgs" style="text-align: right;"><img src="img/boutons.png" alt="Les Boutons" width="150"></div></td>
+                    <th style="width: 150">Label</th>
+                    <td style="width: 150"><div class="imgs" style="text-align: right;"><img src="img/Label.png" alt="Label" width="150"></div></td>
+                    <th style="width: 350">Image de l’application sur Mobile</th>
+                    <td style="width: 450"><div class="imgs" style="text-align: right;"><img src="img/app.png" alt="Image de l’application sur Mobile" width="350"></div></td>
+            </tr></table>
+            <br>
+            <h5>Schéma des blocs de l’application Android</h5>
+            <br>
+            <div class="imgs"><img src="img/block.png" alt="block de l’application" width="900"></div>
+        <br>
+        </div>
+        
+        
+        <div class="stitle" style="width: 650;">
+            <h2>Fonctions de commande de la serre :</h2>
+        </div>
+        <br>
+        <div class="txt">
+            <h3>Réalisation pratique:</h3>
+            <br>
+            <table><tr>
+                <th style="width: 400"><div class="imgs"><img src="img/serre.jpg" alt="Serre" height="500"></div></th>
+                <th style="width: 400"><div class="imgs"><img src="img/serre.png" alt="Serre temp" height="500"></div></th>
+            </tr></table>
+            <br><br>
+            <h3>Code Arduino de la température et de l’irrigation:</h3>
+            <table><tr>
+                <th style="width: 400"><div class="imgs"><img src="img/serrecode1.png" alt="Serre code1" height="400"></div></th>
+                <th style="width: 400"><div class="imgs"><img src="img/serrecode2.png" alt="Serre code2" height="400"></div></th>
+                <th style="width: 400"><div class="imgs"><img src="img/serrecode3.png" alt="Serre code3" height="400"></div></th>
+            </tr></table>
+        <br>
+        </div>
+        
+        <div class="stitle" style="width: 900;">
+            <h2>Fonctions de commande du bâtiment des volailles :</h2>
+        </div>
+        <br>
+        <div class="txt">
+            <h3>Réalisation pratique:</h3>
+            <br>
+            <div class="imgs"><img src="img/volailles.jpg" alt="Serre" height="500"></div>
+            <br><br>
+            <h3>Code Arduino du DHT11 et le capteur de flamme et le MQ-2:</h3>
+            <table><tr>
+                <th style="width: 400"><div class="imgs"><img src="img/volailles1.png" alt="volailles code1" height="400"></div></th>
+                <th style="width: 400"><div class="imgs"><img src="img/volailles2.png" alt="volailles code2" height="400"></div></th>
+                <th style="width: 400"><div class="imgs"><img src="img/volailles3.png" alt="volailles code3" height="400"></div></th>
+            </tr></table>
+        <br>
+        </div>
+        <br>
+        <div class="stitle" style="width: 700;">
+            <h2>Fonctions de commande de l’éclairage:</h2>
+        </div>
+        <br>
+        <div class="txt">
+            <h3>Réalisation pratique:</h3>
+            <br>
+            <table><tr>
+                <th style="width: 400"><div class="imgs"><img src="img/eclairage1.jpg" alt="eclairage 1" height="300"></div></th>
+                <th style="width: 400"><div class="imgs"><img src="img/eclairage2.jpg" alt="eclairage 2" height="300"></div></th>
+            </tr></table>
+            <br><br>
+            <h3>Code Arduino de commande de l’éclairage:</h3>
+            <table><tr>
+                <th style="width: 400"><div class="imgs"><img src="img/eclairagecode1.png" alt="eclairagecode" height="400"></div></th>
+                <th style="width: 400"><div class="imgs"><img src="img/eclairagecode2.png" alt="eclairagecode2" height="400"></div></th>
+                <th style="width: 400"><div class="imgs"><img src="img/eclairagecode3.png" alt="eclairagecode3" height="400"></div></th>
+            </tr></table>
+        <br>
+        </div>
+        
+        <div class="stitle" style="width: 450;">
+            <h2>Caméra de surveillance :</h2>
+        </div>
+        <br>
+        <div class="txt">
+            <h3>L’algorithme de la  caméra de surveillance :</h3>
+            <br>
+            <div class="imgs"><img src="img/camera.jpg" alt="caméra de surveillance" height="500"></div><br>
+        </div>
+        
+        <div class="stitle" style="width: 240;">
+            <h2>Conclusion</h2>
+        </div>
+        <br>
+        <div class="txt">
+            <p>A travers ce projet nous avons acquis une bonne expérience pour la création d’une application Android avec l’environnement MIT App tout en acquérant de meilleurs connaissances de l'agriculture intelligente, ce qui pourrait nous être fortement utile pour notre vie professionnelle future. Nous avons aussi pu mettre en valeur les connaissances reçues en électronique et en informatique, également on a pu appliquer la programmation et la vision artificielle.</p>
+            <h3 style="text-align: center">Perspectives:</h3>
+            <p>Configuration d’un système intelligent basé sur des capteurs pour l'acquisition de données agroenvironnementales.</p>
+            <p>Elargir la portée du fonctionnement du système par l’utilisation d’autre type de communication : GSM, radiofréquence.</p>
+            <p>Améliorer la sécurité de l’application en enregistrant des comptes.</p>
+        <br>
+        </div>
+        <br>
+        <div class="imgs"><img src="img/ferm1.jpg" alt="ferm" width="1100"></div>
+        <br>
+        <div class="imgs"><img src="img/ferm2.jpg" alt="ferm" width="1100"></div>
+        <br>
+        <div class="imgs"><img src="img/ferm3.jpg" alt="ferm" width="1100"></div>
+        <br>
+        
+        <footer class="f">
+            Écrit par: <b style="letter-spacing: 2px;">HOUBAD KHADIDJA</b> & <b style="letter-spacing: 2px;">GUETTAF MEHIEDDINE</b><br>
+            Posté par: <b style="letter-spacing: 2px;">&copy;2019 BENTURKI BESSAFI</b> <br> 
+            Contact : <a href="mailto:BenturkiB@Gmail.com" target="_blank">BenturkiB@Gmail.com</a>.
+        </footer>
+    </body>
+</html>
